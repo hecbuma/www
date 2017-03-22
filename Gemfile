@@ -36,6 +36,8 @@ group :development do
   gem 'rubocop',                     '~> 0.42.0'
   gem 'spring',                      '~> 1.7.2'
   gem 'spring-commands-rspec',       '~> 1.0.4'
+  gem 'capistrano',                  '~> 3.4.0'
+  gem 'capistrano-rails'
 end
 
 group :development, :test do
