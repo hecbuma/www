@@ -26,6 +26,8 @@ gem 'faker',                         '~> 1.4.3'
 gem 'lograge',                       '~> 0.4.1'
 gem 'omniauth-github',               '~> 1.1.2'
 gem 'rake',                          '~> 10.5.0 '
+gem 'foreman'
+gem 'sidekiq'
 
 group :development do
   gem 'dotenv-rails',                '~> 2.0.0'
