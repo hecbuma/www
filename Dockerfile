@@ -5,9 +5,12 @@ RUN echo "deb-src http://www.deb-multimedia.org jessie main non-free" >> /etc/ap
 RUN apt-get update && apt-get install -y --force-yes \
   build-essential \
   nodejs \
-  postgresql-client \
-  ffmpeg \
-  cron && \
+  imagemagick \
+  ntpdate \
+  npm \
+  pandoc \
+  default-jre \
+  postgresql-client && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
   truncate -s 0 /var/log/*log
 
