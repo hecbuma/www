@@ -24,6 +24,7 @@ services:
       VIRTUAL_HOST: "wdt_single.colima.io"
       RACK_ENV: production
       RAILS_ENV: production
+      DATABASE_URL: postgres://postgres:elpassowrd@postgres:5432
       VIRTUAL_PORT: 7000
       SECRET_KEY_BASE: 21b053f2494f885928d8e456efb15ef2ab4340ff09b562f56c86bdac44a8b6531e32e0d062edbf59030e1e11112f6ccccdd9f7c8e483838a2ba5ce8529deacd9
 
