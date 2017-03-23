@@ -94,9 +94,9 @@ namespace :docker do
   desc "Check required directories"
   task :check do
     invoke "docker:check:directories"
-    invoke "deploy:check:linked_dirs"
-    invoke "deploy:check:make_linked_dirs"
-    invoke "deploy:check:linked_files"
+    # invoke "deploy:check:linked_dirs"
+    # invoke "deploy:check:make_linked_dirs"
+    # invoke "deploy:check:linked_files"
   end
 
   desc 'Copy files'
